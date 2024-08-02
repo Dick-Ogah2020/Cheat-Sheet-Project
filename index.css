@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+    color: #addffa;
+    text-align: center;
+    font-weight: bold;
+}
+
+table, td, th, h1, h3 {
+    font-family: monospace;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td {
+    border: 3px solid #eeddff;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(odd) {
+    background-color: #ddddcc;
+}
+
+th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+span {
+    background-color: #ecdfdf;
+}
